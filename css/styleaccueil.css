@@ -1,0 +1,110 @@
+body {background: linear-gradient(105deg, rgb(247, 208, 208) 39%, rgb(255, 110, 110) 96%) center; 
+	padding: 5px 25px;
+	font-family: "Impact", Impact, Impact, sans-serif;
+	font-size: 100px;
+	line-height: 18px;
+	color: black;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Impact", serif;
+	font-size: 50px;
+	color: rgba(146, 22, 22);
+}
+
+h2 {
+	font-family: "Merryweather", serif;
+	font-size: 75px;
+	color: black;
+}
+
+h3 {
+	font-family: "Merryweather", serif;
+	font-size: 25px;
+	color: black;
+}
+
+h4 {
+	font-family: "Merryweather", serif;
+	font-size: 50px;
+	color: black;
+}
+
+#survol:hover {
+  border:1px dotted #808080;
+	background-color:#F5F5F5;
+	color:#F5F5F5;
+	padding:5px;
+}
+
+
+      .example {
+        cursor: pointer;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+        width: 400px;
+        text-align: center;
+      }
+      .example .fadedbox {
+        background-color: #666666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        opacity: 0;
+        width: 360px;
+        height: 100px;
+        padding: 130px 20px;
+      }
+      .example:hover .fadedbox {
+        opacity: 0.8;
+      }
+      .example .text {
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+      }
+      .example .title {
+        font-size: 2.5em;
+        text-transform: uppercase;
+        opacity: 0;
+        transition-delay: 0.2s;
+        transition-duration: 0.3s;
+      }
+      .example:hover .title,
+      .example:focus .title {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+      }
+button {
+  background-color: #921616; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+
+#field1 {
+  width:1400px;
+  font-family: "Impact", serif;
+  font-size:35px;
+  color: black;
+  background: background: linear-gradient(105deg, rgba(225,225,225.2) 39%, rgba(100,100,100,1) 96%) center; 
